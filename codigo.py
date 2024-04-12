@@ -29,7 +29,7 @@ def extract_words(pdf_path, coordinates):
         return '_'.join(result)
 
 # Coordenadas del formato "página:línea:posición"
-coordinates = ["1:5:3", "2:3:1", "3:4:2"]
+coordinates = ["10:8:2", "23:10:1", "30:8:2", "30:26:7", "35:1:7", "151:19:10", "151:11:8", "152:11:5"]
 
 # Llamar a la función y pasar el path del PDF y las coordenadas
 words = extract_words("quijote.pdf", coordinates)
